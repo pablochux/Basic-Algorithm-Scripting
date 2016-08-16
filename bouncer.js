@@ -5,4 +5,4 @@ function bouncer(arr) {
   });
 }
 // Working example
-bouncer([false, null, 0, NaN, undefined, ""])
+bouncer([false, null, 0, NaN, undefined, ""]);

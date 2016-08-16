@@ -1,7 +1,7 @@
 function chunkArrayInGroups(arr, size) {
   var resultArr = [];
   var resultSubArr = [];
-  var flag = 0; // flag is used to 
+  var flag = 0;
   for (var i = 0; i < arr.length; i++){
     if (flag <= size){
       flag++;
